@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="فروشگاه"
+        android:icon="@drawable/ic_shopp"
+        android:id="@+id/m1"/>
+    <item android:title="وبلاگ"
+        android:icon="@drawable/ic_weblog"  android:id="@+id/m2"/>
+    <item android:title="قوانین و مقررات" android:icon="@drawable/ic_rules"
+        android:id="@+id/m3"/>
+    <item android:title="درباره ما" android:icon="@drawable/ic_rules"
+        android:id="@+id/m4"/>
+    <item android:title="تماس با ما" android:icon="@drawable/ic_call"
+        android:id="@+id/m5"/>
+</menu>

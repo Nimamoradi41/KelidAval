@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layoutDirection="ltr"
+    android:id="@+id/close"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cccv"
+                    android:background="@drawable/shape_887"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.493"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/linearLayout6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_5"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/textView73"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginBottom="24dp"
+                            android:background="@drawable/shape_78"
+                            android:fontFamily="@font/vazir_med"
+                            android:gravity="center"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="8dp"
+                            android:paddingBottom="10dp"
+                            android:text="اعمال"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/range_slider3"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="@+id/range_slider3"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider12"
+                            app:layout_constraintVertical_bias="0.109" />
+
+                        <EditText
+                            android:id="@+id/range_slider"
+                            android:fontFamily="@font/vazir_med"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+
+                            android:layout_marginStart="8dp"
+                            android:singleLine="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@drawable/shape_4477"
+                            android:inputType="number"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="8dp"
+                            android:paddingBottom="10dp"
+                            android:visibility="visible"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView77"
+                            tools:ignore="MissingConstraints" />
+
+
+                        <EditText
+                            android:id="@+id/range_slider6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:singleLine="true"
+                            android:fontFamily="@font/vazir_med"
+                            android:visibility="visible"
+                            android:inputType="number"
+                            android:gravity="center"
+                            android:background="@drawable/shape_4477"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="8dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView146"
+                            tools:ignore="MissingConstraints" />
+
+                        <com.cottacush.android.currencyedittext.CurrencyEditText
+                            android:id="@+id/range_slider2"
+                            app:isDecimal="true"
+                            android:theme="@style/spinner_style2"
+                            android:layout_width="match_parent"
+                            android:textLocale="en-NG"
+                            android:fontFamily="@font/vazir_med"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:paddingRight="8dp"
+                            android:visibility="visible"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:background="@drawable/shape_4477"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:layout_marginEnd="8dp"
+                            android:singleLine="true"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView79"
+                            android:inputType="number"
+                            tools:ignore="MissingConstraints" />
+
+
+                        <com.cottacush.android.currencyedittext.CurrencyEditText
+                            android:id="@+id/range_slider7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginStart="8dp"
+                            android:visibility="visible"
+                            android:layout_marginTop="8dp"
+                            android:textLocale="en-NG"
+                            android:fontFamily="@font/vazir_med"
+                            android:layout_marginEnd="8dp"
+                            android:background="@drawable/shape_4477"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            app:isDecimal="true"
+                            android:inputType="number"
+                            android:paddingRight="8dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView147"
+                            tools:ignore="MissingClass,MissingConstraints"
+                            tools:targetApi="q" />
+
+                        <EditText
+                            android:id="@+id/range_slider3"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/vazir_med"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+
+                            android:layout_marginEnd="8dp"
+                            android:visibility="visible"
+                            android:background="@drawable/shape_4477"
+                             android:paddingRight="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:inputType="number"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView81"
+                            tools:ignore="MissingConstraints" />
+
+                        <EditText
+                            android:id="@+id/range_slider11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@drawable/shape_4477"
+                             android:maxLength="4"
+                            android:gravity="center"
+                            android:fontFamily="@font/vazir_med"
+                            android:inputType="number"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="8dp"
+                            android:paddingBottom="10dp"
+                            android:singleLine="true"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView166"
+                            tools:ignore="MissingConstraints" />
+
+                        <EditText
+                            android:id="@+id/range_slider12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:maxLength="4"
+                            android:background="@drawable/shape_4477"
+                            android:fontFamily="@font/vazir_med"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="8dp"
+                            android:paddingBottom="10dp"
+                            android:singleLine="true"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView167"
+                            tools:ignore="MissingConstraints" />
+
+                        <EditText
+                            android:id="@+id/range_slider10"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/vazir_med"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:background="@drawable/shape_4477"
+
+                            android:inputType="number"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="8dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView150"
+                            tools:ignore="MissingConstraints" />
+
+                        <com.cottacush.android.currencyedittext.CurrencyEditText
+                            android:id="@+id/range_slider4"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:layout_height="wrap_content"
+
+                            android:fontFamily="@font/vazir_med"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:visibility="visible"
+                            android:paddingRight="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:inputType="number"
+                            android:background="@drawable/shape_4477"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView83"
+                            tools:ignore="MissingConstraints" />
+
+                        <com.cottacush.android.currencyedittext.CurrencyEditText
+                            android:id="@+id/range_slider8"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:visibility="visible"
+                            android:background="@drawable/shape_4477"
+                            android:inputType="number"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="8dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView148"
+                            tools:ignore="MissingConstraints" />
+
+                        <com.cottacush.android.currencyedittext.CurrencyEditText
+                            android:id="@+id/range_slider5"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:visibility="visible"
+                           android:background="@drawable/shape_4477"
+                            android:paddingRight="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:inputType="number"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView85"
+                            tools:ignore="MissingConstraints" />
+
+                        <com.cottacush.android.currencyedittext.CurrencyEditText
+                            android:id="@+id/range_slider9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:layout_marginEnd="8dp"
+                            android:background="@drawable/shape_4477"
+                            android:visibility="visible"
+                            android:inputType="number"
+                            android:fontFamily="@font/vazir_med"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="8dp"
+                            android:paddingBottom="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView149"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/imageView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:padding="4dp"
+
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/ic_baseline_check_24"
+                            app:tint="@color/BaseColor" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/textField"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="8dp"
+                            android:backgroundTint="#DDE8EC"
+                            android:textColorHint="@color/BaseColor"
+
+                            app:boxBackgroundColor="#DDE8EC"
+                            app:boxStrokeColor="@color/BaseColor"
+                            app:endIconMode="clear_text"
+                            app:hintTextColor="@color/BaseColor"
+                            android:visibility="visible"
+                            app:layout_constraintEnd_toEndOf="@+id/textView74"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView74"
+                            app:startIconTint="@color/BaseColor">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:id="@+id/textz"
+                                android:hint="آدرس یا کد را وارد کنید"
+                                android:singleLine="true"
+                                android:textColor="@color/BaseColor"
+                                android:textColorHint="@color/BaseColor" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/textView74"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:visibility="visible"
+                            android:layout_marginEnd="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="جستجو براساس آدرس یا کد"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView75"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="visible"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="امکانات ملک"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textField" />
+
+                        <TextView
+                            android:id="@+id/textView76"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="تعداد اتاق خواب"
+                            android:textColor="@color/static_color"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:visibility="visible"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+                        <TextView
+                            android:id="@+id/textView78"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="8dp"
+                            android:visibility="visible"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="مبلغ خرید"
+                            android:textColor="@color/static_color"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider6" />
+
+                        <TextView
+                            android:id="@+id/textView80"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="8dp"
+                            android:visibility="visible"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="متراژ"
+                            android:textColor="@color/static_color"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider9" />
+
+                        <TextView
+                            android:id="@+id/textView165"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="سال ساخت"
+                            android:textColor="@color/static_color"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:visibility="visible"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider10" />
+
+                        <TextView
+                            android:id="@+id/textView82"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="8dp"
+                            android:visibility="visible"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="مبلغ اجاره"
+                            android:textColor="@color/static_color"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider7" />
+
+                        <TextView
+                            android:id="@+id/textView84"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginEnd="8dp"
+                            android:visibility="visible"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="مبلغ رهن"
+                            android:textColor="@color/static_color"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider8" />
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="از"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+                        <TextView
+                            android:id="@+id/textView146"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="تا "
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider" />
+
+                        <TextView
+                            android:id="@+id/textView79"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="از"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+                        <TextView
+                            android:id="@+id/textView147"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="تا"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider2" />
+
+                        <TextView
+                            android:id="@+id/textView81"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="از"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+                        <TextView
+                            android:id="@+id/textView166"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="از"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/textView165" />
+
+                        <TextView
+                            android:id="@+id/textView150"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="تا"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider3" />
+
+                        <TextView
+                            android:id="@+id/textView167"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="تا"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider11" />
+
+                        <TextView
+                            android:id="@+id/textView83"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="از"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/textView82" />
+
+                        <TextView
+                            android:id="@+id/textView148"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="تا"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider4" />
+
+                        <TextView
+                            android:id="@+id/textView85"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="از"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/textView84" />
+
+                        <TextView
+                            android:id="@+id/textView149"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/vazir_med"
+                            android:text="تا"
+                            android:textColor="@color/static_color"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/textView76"
+                            app:layout_constraintTop_toBottomOf="@+id/range_slider5" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:backgroundTint="@color/BaseColor"
+                            android:buttonTint="@color/BaseColor"
+                            android:fontFamily="@font/vazir_med"
+                            android:layoutDirection="rtl"
+                            android:text="آسانسور"
+                            app:layout_constraintEnd_toEndOf="@+id/textView75"
+                            app:layout_constraintStart_toStartOf="@+id/textField"
+                            app:layout_constraintTop_toBottomOf="@+id/textView75" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="16dp"
+                            android:backgroundTint="@color/BaseColor"
+                            android:buttonTint="@color/BaseColor"
+                            android:fontFamily="@font/vazir_med"
+                            android:layoutDirection="rtl"
+                            android:text="تک واحده"
+                            app:layout_constraintEnd_toEndOf="@+id/textView75"
+                            app:layout_constraintStart_toStartOf="@+id/textField"
+                            app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+                        <CheckBox
+
+                            android:id="@+id/checkBox2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:visibility="visible"
+                            android:layout_marginTop="16dp"
+                            android:backgroundTint="@color/BaseColor"
+                            android:buttonTint="@color/BaseColor"
+                            android:fontFamily="@font/vazir_med"
+                            android:layoutDirection="rtl"
+                            android:text="پارکینگ"
+                            app:layout_constraintStart_toStartOf="@+id/guideline18"
+                            app:layout_constraintTop_toBottomOf="@+id/textView75" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox4"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:backgroundTint="@color/BaseColor"
+                            android:buttonTint="@color/BaseColor"
+                            android:fontFamily="@font/vazir_med"
+                            android:layoutDirection="rtl"
+                            android:text="پیش خرید"
+                            android:visibility="visible"
+                            app:layout_constraintStart_toStartOf="@+id/guideline18"
+                            app:layout_constraintTop_toTopOf="@+id/checkBox3" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.5" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

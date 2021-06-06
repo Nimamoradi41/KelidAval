@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomDialog" parent="Theme.AppCompat.Dialog"></style>
+
+    <style name="spinner_style" parent="Widget.AppCompat.Spinner">
+        <item name="fontFamily">@font/vazir_med</item>
+    </style>
+
+    <style name="spinner_style2" parent="Widget.AppCompat.EditText">
+        <item name="fontFamily">@font/vazir_med</item>
+    </style>
+</resources>
